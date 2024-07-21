@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container_wrapper {
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+
+    h1 {
+        text-align: center;
+        font-size: 70px;
+    }
+
+    
+    .btn_container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        button {
+            padding: 7px 15px;
+            border-radius: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+        }
+        .start {
+            background-color: green;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
+
+        .pause {
+            background-color: yellowgreen;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
+
+        .stop {
+            background-color: red;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
+
+        .disable{
+            background-color: #ccc;
+            color: #000;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container_wrapper{
+        width: 400px;
+    }
+}

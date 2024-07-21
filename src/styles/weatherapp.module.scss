@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    .inner_wrapper{
+        width: 600px;
+        background-color: #fff;
+        padding: 15px;
+        .input_group{
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+            input{
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                flex: 1;
+            }
+            img{
+                width: 50px;
+            }
+        }
+    }
+}
+.image{
+    height: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    img{
+        width: 160px;
+        height: 160px;
+    }
+}
+.city,.temp,.country{
+    margin-top: 5px;
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight: 500;
+}
+.city{
+    font-size: 35px;
+    color: #ffbc00;
+}
+.country{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.cord div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.cord div span{
+    font-size: 14px;
+}
+.cord div span:nth-child(2){
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+    padding-top: 5px;
+}
+.data_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .element{
+        text-align: center;
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+        .text{
+            font-weight: 500;
+            color: #888;
+        }
+    }
+}
+.error{
+   margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        .inner_wrapper{
+            width: 400px;
+        }
+    }
+    .city,.temp,.country{
+        font-size: 25px;
+    }
+}

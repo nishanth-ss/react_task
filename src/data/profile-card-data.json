@@ -1,0 +1,26 @@
+ [
+    {
+        "name": "James",
+        "city": "New York",
+        "description": "Front-end developer",
+        "skills": ["UI / UX","Front End Development","HTML","CSS","Javascript","React","Node"],
+        "online": true,
+        "profile": "https://images.pexels.com/photos/10311994/pexels-photo-10311994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Robert",
+        "city": "California",
+        "description": "Full Stack Web Developer",
+        "skills": ["Vlogging","Web Development","HTML","CSS","Javascript","React","Angular"],
+        "online": false,
+        "profile": "https://images.pexels.com/photos/14807470/pexels-photo-14807470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "name": "Nancy",
+        "city": "San Francisco",
+        "description": "Senior Software Developer",
+        "skills": ["C","C++","Java Programming","Python","C#.Net","MySQL","mongoDB"],
+        "online": false,
+        "profile": "https://images.pexels.com/photos/20094341/pexels-photo-20094341/free-photo-of-portrait-of-man-wearing-brown-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
